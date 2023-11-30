@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>210</y>
+      <w>490</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Package::utility
+arrayOperation
+--
+--
+_+divide2Arrays(array1: Number[][], array2: Number[][]): Number[][]_
+_+multiplyBy1000(array1: Number[]): Number[][]_
+_+divideBy1000(array1: Number[]): Number[][]_
+_+generateNumbersInRange(start: int, end: int, step: int): Number[]_
+_+generateNumbersInDecRange(start: int, end: int, step: int): Number[]_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

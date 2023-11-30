@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>110</y>
+      <w>430</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>Package::dataFetcher
+DataFetcher
+--
+-countryId: String
+-indicator: String
+-startYear: String
+-endYear: String
+-urlString: String
+-category: String
+-countryName: String
+_-DEFAULT_END_YEAR_: int
+--
++getData(): Number[][]
++getValueArray(): Number[]
++getYearArray(): Number[]
+-setCategory(category: String)
++getCategory(): String
+-setCountryName(countryName: String)
++getCountryName(): String
+-getJsonArray(): JsonArray
+-getJsonArrayString(): String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
